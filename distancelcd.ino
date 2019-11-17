@@ -67,10 +67,10 @@ void loop() {
     lcd.print(dis);
     lcd.print("cm");
     if (dis < 10){
-      // if distance is one-digit value, append 4 spaces to clear any leftover lcd data
+      // if distance is one-digit value, append 3 spaces to clear any leftover lcd data
       lcd.print("   ");
     } else if (dis > 10 && dis < 100){
-      // if distance is two-digit value, append 3 spaces to clear any leftover lcd data
+      // if distance is two-digit value, append 2 spaces to clear any leftover lcd data
       lcd.print("  ");
     } else {
       // if distance is three-digit value, append 1 space to clear any leftover lcd data
