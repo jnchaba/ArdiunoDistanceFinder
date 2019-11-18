@@ -1,4 +1,4 @@
-# ArdiunoDistanceFinder
+# ArduinoDistanceFinder
 Ardiuno Program that measures and displays distance on LCD up to 4 meters.
 
 This is is a simple project which measures distance from a HC-SR04 ultrasonic sensor and displays it on a LCD display.
